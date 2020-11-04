@@ -1,0 +1,181 @@
+<html>
+   <head>
+     <style>
+ body {
+    background-image: url('outerspace.png');
+    color: red;
+    font-weight: bold;
+ }
+ </style>
+      <title>Zodiac Notes</title>
+      <script>
+        function fortune()
+        {
+                // Logical OR ( || )
+               // Cond1 Cond2  Result
+              //   T     T      T-Runs
+             //    F     T      T-Runs
+            //     T     F      T-Runs
+          //       F     F      F-Does Not Run
+
+          // Logical AND ( && )
+         // Cond1 Cond2  Result
+        //   T     T      T-Runs
+       //    F     T      F-Does Not Run
+      //     T     F      F-Does Not Runs
+    //       F     F      F-Does Not Run
+             var month = 3;
+             var day = 21;
+             var month = 4;
+             var day = 19;
+             //ARies March 21 April 19
+             if((month == 3 &&  (day <= 21 && day >= 31))  || (month == 4 && (day >= 1  && day <= 19)))
+             {
+               document.getElementById("message").innerHTML = "Aries: Their fearlessness and courageousness make them the ideal people for trying new experiences, taking big risks, and breaking new ground.";
+               document.getElementById("symbol").innerHTML = "<img src = 'aries.png'>";
+             }
+              //Taurus (4/20 - 5/20)
+              var month = 4;
+              var day = 20;
+              var month = 5;
+              var day = 20;
+             if((month == 4 &&  (day <= 20 && day >= 30)) || (month == 5 && (day >= 1  && day <= 20)))
+             {
+                    document.getElementById("message").innerHTML = "Taurus: Ruled by the planet Venus, they share her traits of beauty, artistry, hedonism and a love of luxury and comfort.";
+                    document.getElementById("symbol").innerHTML = "<img src = 'taurus.png'>";
+
+             }
+
+             var month = 5;
+             var day = 21;
+             var month = 6;
+             var day = 20;
+             if((month == 5 &&  (day <= 21 && day >= 30)) || (month == 6 && (day >= 1  && day <= 20)))
+             {
+                    document.getElementById("message").innerHTML = "Gemini: Gemini is constantly juggling a variety of passions, hobbies, careers, and friend groups. They are the social butterflies of the zodiac";
+                    document.getElementById("symbol").innerHTML = "<img src = 'gemini.png'>";
+
+             }
+
+             var month = 6;
+             var day = 21;
+             var month = 7;
+             var day = 22;
+             if((month == 6 &&  (day <= 21 && day >= 30)) || (month == 2 && (day >= 1  && day <= 22)))
+             {
+                    document.getElementById("message").innerHTML = "Cancer: Cancer traits include being nurturing, sensitive, compassionate, self-protective, security-seeking and offering, loving, and displaying a goofy, ingratiating sense of humor. ";
+                    document.getElementById("symbol").innerHTML = "<img src = 'cancer.png'>";
+
+             }
+
+             var month = 7;
+             var day = 23;
+             var month = 8;
+             var day = 22;
+             if((month == 7 &&  (day <= 23 && day >= 31)) || (month == 8 && (day >= 1  && day <= 22)))
+             {
+                    document.getElementById("message").innerHTML = "Leo: Leo traits include being confident, comfortable being the center of attention, drama-adoring, ambitious, loyal, fiercely protective of their nearest and dearest, generous, luxury-loving, sunny, and big-hearted.";
+                    document.getElementById("symbol").innerHTML = "<img src = 'leo.png'>";
+
+             }
+
+             var month = 8;
+             var day = 23;
+             var month = 9;
+             var day = 22;
+             if((month == 8 &&  (day <= 23 && day >= 30)) || (month == 9 && (day >= 1  && day <= 22)))
+             {
+                    document.getElementById("message").innerHTML = "Virgo: Virgos are logical, practical, and systematic in their approach to life.";
+                    document.getElementById("symbol").innerHTML = "<img src = 'virgo.png'>";
+
+             }
+
+             var month = 9;
+             var day = 23;
+             var month = 10;
+             var day = 22;
+             if((month == 9 &&  (day <= 23 && day >= 30)) || (month == 10 && (day >= 1  && day <= 22)))
+             {
+                    document.getElementById("message").innerHTML = "Libra:  Libras are natural peacemakers and are experts at being tactful and diplomatic in their relationships and in groups.";
+                    document.getElementById("symbol").innerHTML = "<img src = 'libra.png'>";
+
+             }
+
+             var month = 10;
+             var day = 23;
+             var month = 11;
+             var day = 21;
+             if((month == 10 &&  (day <= 23 && day >= 30)) || (month == 11 && (day >= 1  && day <= 21)))
+             {
+                    document.getElementById("message").innerHTML = "Scorpio: Scorpios are emotional and have sharp intuitive powers.";
+                    document.getElementById("symbol").innerHTML = "<img src = 'scorpio.png'>";
+            }
+
+            var month = 11;
+            var day = 22;
+            var month = 12;
+            var day = 21;
+            if((month == 11 &&  (day <= 22 && day >= 30)) || (month == 12 && (day >= 1  && day <= 21)))
+            {
+                   document.getElementById("message").innerHTML = "Saggitarius: Sagittarians are optimistic, restless, progressive and adventurous. They can't stand to be contained, thwarted or bossed about, and freedom is their catnip. ";
+                   document.getElementById("symbol").innerHTML = "<img src = 'saggitarius.png'>";
+           }
+
+           var month = 12;
+           var day = 22;
+           var month = 1;
+           var day = 19;
+           if((month == 12 &&  (day <= 22 && day >= 31)) || (month == 1 && (day >= 1  && day <= 19)))
+           {
+                  document.getElementById("message").innerHTML = "Capricorn: Capricorns are the ultimate worker bees. They're ambitious, organized, practical, goal-oriented, and they don't mind the hustle.";
+                  document.getElementById("symbol").innerHTML = "<img src = 'capricorn.png'>";
+          }
+
+
+          var month = 1;
+          var day = 20;
+          var month = 2;
+          var day = 18;
+          if((month == 1 &&  (day <= 20 && day >= 31)) || (month == 2 && (day >= 1  && day <= 18)))
+          {
+                 document.getElementById("message").innerHTML = "Aquarius: Every Aquarian is a rebel at heart: These air signs despise authority and anything that represents conventionality. ";
+                 document.getElementById("symbol").innerHTML = "<img src = 'aquarius.png'>";
+         }
+
+
+                           var month = 2;
+                           var day = 19;
+                           var month = 3;
+                           var day = 20;
+         if((month == 2 &&  (day <= 19 && day >= 29)) || (month == 3 && (day >= 1  && day <= 20)))
+         {
+                document.getElementById("message").innerHTML = "Pisces: Pisces are known for being incredibly creative, empathetic, and creative, but they can also suffer from being overly emotional, impressionable, and closed off.";
+                document.getElementById("symbol").innerHTML = "<img src = 'pisces.png'>";
+        }
+
+
+
+
+
+
+
+
+        }
+      </script>
+
+      <style>
+       /*Give me a background*/
+       /*Change font size, color, style*/
+       /*Do something on Hover*/
+      </style>
+   </head>
+
+   <body>
+     <h2>Horoscope</h2>
+     <input type = "text" value = "Month">
+     <input type = "text" value = "Day">
+     <input type = "button" value = "SUBMIT" onclick = "fortune()">
+     <span id = "symbol"></span>
+     <span id = "message"></span>
+   </body>
+</html>
